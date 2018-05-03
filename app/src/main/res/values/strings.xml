@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MusicalAppDesign</string>
+    <string name="home">Home</string>
+    <string name="pod_cast">Podcast</string>
+    <string name="my_music">My Music</string>
+    <string name="song_list">Song List</string>
+    <string name="home_description">The home screen of the app will have list of \"New and Trending\" songs, songs according to the \"Artist\" or \"Albums\"
+        which can be fetched from the API\'s available in the web like free music archive API, Apple Music service or Microsoft Groove service.
+        API\'s can be consumed using HTTP Client or Retrofit. \n
+        We can also search the device storage to fetch the local song files which are present in device and display it among our lists. We can use MediaPlayer to play these songs.
+    Once the user click\'s on a single list they would be able to see the internal songs under a list.</string>
+    <string name="my_music_description">This screen will have the playlists created by the user. Also this screen will enable the user to go to the payment screen
+    where the user can pay the app subscription amount to use an Ad free app and free downloads of the music for offline availability.</string>
+    <string name="payment_description">This screen would help the user choose to between the subscription packages available eg: 1 month, 3 months, 6 months or an year of Subscription.
+    Also user would be able to choose the mode of payment eg: from credit card, debit card or Net Banking.
+        We can use the payment gateway integration of Pay pal, CCAvenue, PayTM, Razor pay etc. The SDK\'s for this gate way can be integrated with the app to configure the payment gateway.
+    Create an d display payment view, write methods to receive either the completed payment or a cancellation. After the transaction user will be redirected to the Home screen.</string>
+    <string name="pod_cast_description">Screen shows list of podcast which can be fetched fro BBC\'s API for radio and podcast.
+        Selection of one of the podcast would take the user to  the \"Now playing Screen\".</string>
+    <string name="song_detail_description">This is the \"Now Playing Screen\" with the song playing in the background. Screen has the song or album image,
+        the seek bar, the next and previous song icon.
+        The next song from the selected list would be played once the current song is completed. </string>
+    <string name="song_list_description">Songs from a selected Artist or Album will be shown in a list.
+        User can select any one of the song from the list to lay the song. User will be able to create new play list and add these songs from the list to the created playlist.</string>
+    <string name="below_song_list">Go to the Song List below</string>
+    <string name="below_song">Go to the Song below</string>
+    <string name="song">Song</string>
+    <string name="pay_here">Get Premium Membership</string>
+</resources>
