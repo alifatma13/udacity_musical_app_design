@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MusicalAppDesign</string>
     <string name="home">Home</string>
+    <string name="home_screen">Home Screen</string>
     <string name="pod_cast">Podcast</string>
     <string name="my_music">My Music</string>
     <string name="song_list">Song List</string>

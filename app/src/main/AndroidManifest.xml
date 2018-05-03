@@ -16,15 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyMusicActivity"
-            android:label="My Music "/>
-        <activity android:name=".PaymentActivity"
-            android:label="Payment"/>
-        <activity android:name=".PodCastActivity"
-            android:label="Podcast"/>
-        <activity android:name=".SongDetailActivity"
-            android:label="Now Playing"/>
-        <activity android:name=".SongListActivity"
+        <activity
+            android:name=".MyMusicActivity"
+            android:label="My Music " />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Payment" />
+        <activity
+            android:name=".PodCastActivity"
+            android:label="Podcast" />
+        <activity
+            android:name=".SongDetailActivity"
+            android:label="Now Playing" />
+        <activity
+            android:name=".SongListActivity"
             android:label="Song List "></activity>
     </application>
 
